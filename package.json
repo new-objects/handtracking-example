@@ -1,7 +1,7 @@
 {
-  "name": "gesture-alphabet",
+  "name": "handtracking-example",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "node vite-dev.js",
@@ -32,13 +32,14 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.9",
     "phaser": "^3.60.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/new-objects/gesture-alphabet"
+    "url": "git+https://github.com/new-objects/handtracking-example"
   },
   "bugs": {
-    "url": "https://github.com/new-objects/gesture-alphabet/issues"
+    "url": "https://github.com/new-objects/handtracking-example/issues"
   }
 }
